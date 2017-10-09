@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="Logo" width='45%' />
+  <img src="logo@2x.png" alt="Logo" width='45%' />
 
   <h2>RedirectHTTPS: HTTPS Redirection Middleware</h2>
   <p>A minimalistic middleware that redirects all network traffic from the insecure HTTP protocol to the HTTPS transport, all written in Go<p>
