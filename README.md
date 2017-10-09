@@ -49,3 +49,33 @@ First, the `OnlyConnectionState` Mode, which only checks the connection state fr
 Second, the `OnlyProxy` Mode, which only checks the X-Forwarded-Proto header from the request in order to determine if it's using plain HTTP or not. If so, perform the redirection.
 
 Finally, the `All` Mode, which checks both the X-Forwarded-Proto Header AND the request.TLS variable.
+
+### Contribution
+
+If you found an issue in this library, please file file an issue at https://github.com/acoshift/redirecthttps/issues.
+
+If you wanted to help improve this middleware, feel free to fork this project and submit a pull request through GitHub. Thanks!
+
+### License
+
+MIT License
+
+Copyright (c) 2017 Thanatat Tamtan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
